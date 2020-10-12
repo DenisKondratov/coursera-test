@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lobster', cursive;
+}
+#container {
+    max-width: 100%;
+    border: 2px solid red;
+}
+.block {
+    border: 3px solid black;
+    width: 32%;
+    position: relative;
+    float: left;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    background-color: #999999;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    position: absolute;
+    right: 0;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    margin: 0px;
+    padding: 0px;    
+    background-color: #d59898;
+    width: 140px;
+    text-align: center;        
+}
+p {
+    margin: 40px 10px 20px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .block {
+        /* width: 50%;         */
+        margin: 10px 10px;    
+    }
+    .block3 {
+        clear: both;
+    }
+}
+@media (max-width: 767px) {
+    .block {
+        clear: both;
+        width: 100%;
+        margin: 10px 0px;
+    }
+}
