@@ -1,0 +1,16 @@
+.navMenu {
+    background-color: maroon;
+}
+.foodItem {
+    background-color: grey;
+    padding: 5px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .foodItem {
+        margin: auto 15%;
+    }
+}
